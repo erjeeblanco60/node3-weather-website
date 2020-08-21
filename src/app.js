@@ -8,6 +8,7 @@ const { send } = require('process')
 
 
 const app = express()
+const port = process.env.PORT || 3000          //listen heroku provide
 
 //define paths for express config
 const pubdir = path.join(__dirname, '../public')         //create variable and reference it. this function redict us to public html content
@@ -127,12 +128,14 @@ app.get('*', (req, res)=> {
         })
 
 })
-app.listen(3000, () => {
-    console.log('Server is up on port 3000')
+
+// app.listen(3000, () => {
+//     console.log('Server is up on port 3000')
+    app.listen(port, () => {
+        console.log('Server is up on port port'+ port)
 
 
-
-})           //listen method
+})           //listen locally method on express
 
 
 

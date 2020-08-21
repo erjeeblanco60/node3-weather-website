@@ -36,7 +36,8 @@ weatherform.addEventListener('submit', (event) => {              //click event o
 
     
     // console.log(location)
-    fetch('http://localhost:3000/weather?address='+ location).then((response)=> {          //fetch funtion .then is to set up callback function
+    //fetch('http://localhost:3000/weather?address='+ location).then((response)=> {   
+    fetch('/weather?address='+ location).then((response)=> {          //fetch funtion .then is to set up callback function
 
     response.json().then((data) => {                                        //response json parse the data
        
