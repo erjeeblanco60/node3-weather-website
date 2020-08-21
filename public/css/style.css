@@ -1,0 +1,94 @@
+body{
+    
+    background-image: url('3.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff ;
+    font-family: Arial ;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+}
+
+.main-content{ 
+flex-grow: 1;
+border-radius: 25px;
+background: url(../img/border.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border: 2px solid #73AD21;
+padding: 20px;
+width: auto;
+height: cover;
+
+}
+
+footer {
+    color: #ffffff;
+    border-top: 1px solid #eeeeeeee;
+    margin-top: 16px ;
+    padding: 16px 0;
+    font-weight:bold;
+}       
+
+header {
+    
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+
+}
+h1 {
+font-size: 64px;
+margin-bottom: 16px;
+
+}
+
+
+header a {
+    color: #ffffff;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 150px;
+    border-radius: 50%;
+  
+}
+.resultcss{
+   color: white;
+}
+
+input {
+    border: 1px solid #cccccccc;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+.pabout {
+    text-align: left;
+        color: white;
+
+}
+
+/* #rcorners {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  } */
